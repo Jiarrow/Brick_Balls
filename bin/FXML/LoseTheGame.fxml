@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<fx:root maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="600.0" type="Pane" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="228.0" layoutY="89.0" text="失敗了">
+         <font>
+            <Font size="48.0" />
+         </font>
+      </Label>
+      <Button fx:id="restart" layoutX="245.0" layoutY="228.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="110.0" text="重新來過">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="Exit" layoutX="245.0" layoutY="345.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="110.0" text="離開">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+   </children>
+</fx:root>

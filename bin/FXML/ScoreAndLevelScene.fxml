@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<fx:root maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="100.0" prefWidth="600.0" type="AnchorPane" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="53.0" layoutY="26.0" text="得分">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+      <Label fx:id="Label_score" layoutX="96.0" layoutY="26.0" text="0">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+      <Label fx:id="Label_level" layoutX="512.0" layoutY="26.0" text="1">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+      <Label layoutX="465.0" layoutY="26.0" text="關卡">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+      <ImageView fx:id="life1" fitHeight="48.0" fitWidth="52.0" layoutX="212.0" layoutY="12.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Image/heart.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="life2" fitHeight="48.0" fitWidth="48.0" layoutX="269.0" layoutY="12.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Image/heart.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="life3" fitHeight="48.0" fitWidth="48.0" layoutX="325.0" layoutY="12.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Image/heart.png" />
+         </image>
+      </ImageView>
+   </children>
+</fx:root>
